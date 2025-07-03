@@ -1,0 +1,1 @@
+# poc_vuejs_capacitor
