@@ -40,7 +40,8 @@ npm install -D vitest
 "vitest": "^3.2.4"
 ```
 We need to create a vitest.config.ts => See vitest.config.ts in the project
+
 Tests files will be in the "tests" folder and be formated as "MyTest.test.js"
-We need to add some dependencies in the package.json
+
 Vitest doc : https://vitest.dev/guide/#getting-started
 
