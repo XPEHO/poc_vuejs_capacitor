@@ -38,6 +38,8 @@ npm install -D vitest
 "jsdom": "^26.1.0",
 "vite": "^7.0.0",
 "vitest": "^3.2.4"
+# Run tests
+npm run test
 ```
 We need to create a vitest.config.ts => See vitest.config.ts in the project
 
