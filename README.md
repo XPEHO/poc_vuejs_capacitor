@@ -26,3 +26,21 @@ npx cap sync
 # Run the native app on Android or iOS
 npx cap run android # or ios
 ```
+
+To run some tests we need to add some configuration
+```bash
+# Get the vitest package
+npm install -D vitest
+# Add dependencies in scripts in package.json
+"test": "vitest"
+# Add dependencies in devDependencies in package.json
+"@vue/test-utils": "^2.4.6",
+"jsdom": "^26.1.0",
+"vite": "^7.0.0",
+"vitest": "^3.2.4"
+```
+We need to create a vitest.config.ts => See vitest.config.ts in the project
+Tests files will be in the "tests" folder and be formated as "MyTest.test.js"
+We need to add some dependencies in the package.json
+Vitest doc : https://vitest.dev/guide/#getting-started
+

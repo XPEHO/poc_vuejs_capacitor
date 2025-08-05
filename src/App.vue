@@ -66,7 +66,7 @@ function deleteReminder(id) {
         {{ mode.charAt(0).toUpperCase() + mode.slice(1) }}
       </option>
     </select>
-    <button @click="addReminder">Add</button>
+    <button class="new-reminder" @click="addReminder">Add</button>
 
     <ul>
       <li v-for="reminder in reminders" :key="reminder.id">
